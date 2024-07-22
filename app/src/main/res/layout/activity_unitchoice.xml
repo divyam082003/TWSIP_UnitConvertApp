@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityUnitChoice"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="4dp"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/app_logo"
+        android:layout_margin="16dp"
+        android:padding="4dp"
+        android:layout_gravity="center"
+        />
+
+    <GridLayout
+            android:id="@+id/gridLayoutConversions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:padding="16dp"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true"
+            >
+
+            <Button
+                android:id="@+id/buttonLength"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:text="Length"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+            <Button
+                android:id="@+id/buttonWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:text="Weight"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+            <Button
+                android:id="@+id/buttonTemperature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:text="Temperature"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+            <Button
+                android:id="@+id/buttonVolume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:text="Volume"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+            <Button
+                android:id="@+id/buttonArea"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:text="Area"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+            <Button
+                android:id="@+id/buttonPressure"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:text="Pressure"
+                android:layout_margin="2dp"
+                android:padding="4dp"
+                android:fontFamily="@font/aladin"
+                />
+
+        </GridLayout>
+
+
+
+</LinearLayout>

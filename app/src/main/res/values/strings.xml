@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">UnitMaster</string>
+
+    <string name="convert">Convert</string>
+
+    <!-- Units -->
+    <string-array name="units">
+        <item>meters</item>
+        <item>kilometers</item>
+        <item>centimeters</item>
+        <item>millimeters</item>
+        <item>miles</item>
+        <item>yards</item>
+        <item>feet</item>
+        <item>inches</item>
+        <item>grams</item>
+        <item>kilograms</item>
+        <item>milligrams</item>
+        <item>pounds</item>
+        <item>ounces</item>
+        <item>celsius</item>
+        <item>fahrenheit</item>
+        <item>kelvin</item>
+        <item>liters</item>
+        <item>milliliters</item>
+        <item>cubic_meters</item>
+        <item>gallons</item>
+        <item>quarts</item>
+        <item>pints</item>
+        <item>cups</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="volume_units">
+        <item>Liter</item>
+        <item>Milliliter</item>
+        <item>Gallon</item>
+        <item>Quart</item>
+        <item>Pint</item>
+        <item>Cup</item>
+    </string-array>
+
+    <string-array name="area_units">
+        <item>Square Meter</item>
+        <item>Square Kilometer</item>
+        <item>Square Mile</item>
+        <item>Acre</item>
+        <item>Hectare</item>
+    </string-array>
+
+    <string-array name="pressure_units">
+        <item>Pascal</item>
+        <item>Bar</item>
+        <item>PSI</item>
+        <item>Atmosphere</item>
+    </string-array>
+
+</resources>

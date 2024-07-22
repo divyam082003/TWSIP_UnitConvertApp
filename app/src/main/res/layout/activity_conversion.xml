@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ConversionActivity"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/conversionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Quantity: "
+        android:textSize="28sp"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        />
+
+    <!-- Display the input value -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/editTextValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter value"
+            android:inputType="numberDecimal"
+            android:enabled="false"
+            android:gravity="end"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="16dp"
+            />
+
+        <!-- Display the converted value -->
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result"
+            android:gravity="end"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/black"/>
+
+        <!-- Spinner for selecting the unit to convert from -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="From:"
+                android:padding="4dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinnerFromUnit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:layout_marginLeft="2dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Spinner for selecting the unit to convert to -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="To:"
+                android:padding="4dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinnerToUnit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:layout_marginLeft="2dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- Buttons for calculator-like input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        >
+        <GridLayout
+            android:id="@+id/gridLayoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="5"
+            android:layout_marginTop="16dp"
+            android:alignmentMode="alignMargins"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center_vertical"
+            >
+
+            <!-- Row 1 -->
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="7"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="8"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="9"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="C"
+                android:textSize="22sp"/>
+
+            <!-- Row 2 -->
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="4"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="5"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="6"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/buttonConvert"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Show"
+                android:textSize="16sp"/>
+
+            <!-- Row 3 -->
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="1"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="2"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="3"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/buttonDot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="."
+                android:textSize="22sp"/>
+
+            <!-- Row 4 -->
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="0"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="CE"
+                android:textSize="22sp"/>
+
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>
