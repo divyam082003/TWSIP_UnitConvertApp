@@ -11,11 +11,12 @@ A user-friendly Unit Converter Android app that helps convert various units of m
 
 ## Screenshots
 
+### UnitMaster
+
+<img src="ss/s1.png" width="250"/>
+
 ### Main Screen
-<img src="screenshots/main_screen.png" width="250"/>
+<img src="ss/s2.png" width="250"/>
 
-### Unit Selection
-<img src="screenshots/unit_selection.png" width="250"/>
-
-### Conversion Result
-<img src="screenshots/conversion_result.png" width="250"/>
+### Conversion Screen
+<img src="ss/s3.png" width="250"/>
