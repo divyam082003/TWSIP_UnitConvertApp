@@ -35,7 +35,7 @@ public class ActivityUnitChoice extends AppCompatActivity {
         unitChoiceBinding.buttonTemperature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openConversionActivity("temperature");
+                openConversionActivity("temp");
             }
         });
 
